@@ -43,7 +43,7 @@
 
 j=0; ok=0
 warn=0; crit=0
-COMMAND='/bin/df -PH'
+COMMAND='/bin/df -PH | tail -n +2'
 TEMP_FILE="/tmp/df.$RANDOM.log"
 
 ## Help funcion 
